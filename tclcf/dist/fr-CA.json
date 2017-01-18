@@ -1,0 +1,10 @@
+{
+	"common": {
+		"sample": "texte traduit échantillon"
+	},
+	"core": {
+		"common": {
+			"title": "PeopleNet Portal"
+		}
+	}
+}

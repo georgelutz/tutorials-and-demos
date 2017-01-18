@@ -1,0 +1,312 @@
+{
+	"application": {
+		"applicationCard": {
+			"realm": "Domínio"
+		},
+		"applicationEdit": {
+			"add": "Adicionar aplicação",
+			"edit": "Editar aplicação",
+			"err_deleting": "Erro ao excluir aplicação",
+			"err_while_saving": "Erro enquanto salvava aplicação.",
+			"confirm_save": "{{name}} foi salvo com sucesso.",
+			"confirm_delete": "Excluir aplicação?",
+			"delete_application": "Confirma exclusão da aplicação {{name}}?",
+			"name": "Nome",
+			"name_required": "Nome é obrigatório.",
+			"description": "Descrição",
+			"application_id": "Identificador da aplicação",
+			"realms": "Domínios"
+		},
+		"applicationList": {
+			"title": "Aplicações",
+			"filter": "Filtro"
+		},
+		"common": {
+			"menu": "Aplicações"
+		}
+	},
+	"core": {
+		"common": {
+			"title": "PeopleNet Portal",
+			"form": {
+				"cancel": "cancelar",
+				"delete": "excluir",
+				"save": "salvar",
+				"search": "procurar",
+				"return": "voltar",
+				"not_available": "Indisponível"
+			},
+			"card": {
+				"cancel": "@:core.common.form.cancel",
+				"delete": "@:core.common.form.delete",
+				"edit": "editar",
+				"details": "ver detalhes",
+				"save": "@:core.common.form.save"
+			},
+			"entity-paging": {
+				"per_page": "{{pagingLabel}} por página",
+				"status_count": "{{startItemCount}}-{{lastItemCount}} de {{totalHits}}",
+				"first_page": "Primeira página",
+				"previous_page": "Página anterior",
+				"next_page": "Próxima página",
+				"last_page": "Última página"
+			},
+			"modal": {
+				"yes": "Sim",
+				"no": "Não",
+				"close": "Fechar"
+			},
+			"list": {
+				"subtitle": "{TOTAL, plural,\n        one   {(# no total)}\n        other {(# no total)}}\n"
+			},
+			"weekday": {
+				"sunday": "domingo",
+				"monday": "segunda",
+				"tuesday": "terça",
+				"wednesday": "quarta",
+				"thursday": "quinta",
+				"friday": "sexta",
+				"saturday": "sábado"
+			},
+			"dialog-service": {
+				"delete_content": "Confirma a exclusão de {{name}}?",
+				"delete_title": "Excluir {{name}}",
+				"delete_ok": "Excluir",
+				"delete_cancel": "Cancelar",
+				"alert_ok": "OK"
+			},
+			"data": {
+				"regions": "regions-pt-BR.json"
+			}
+		},
+		"localeHelper": {
+			"en-US": "Inglês",
+			"es-MX": "Espanhol",
+			"fr-CA": "Francês",
+			"pt-BR": "Português"
+		}
+	},
+	"login": {
+		"common": {
+			"email_address": "Endereço de E-mail",
+			"err_unexpected": "Ocorreu um erro inesperado.",
+			"password": "Senha"
+		},
+		"login": {
+			"forgot_password": "Esqueci minha senha",
+			"login": "Entrar",
+			"upgrade_browser": "Por favor atualize o seu navegador para uma melhor experiência.",
+			"logout": "Sair"
+		},
+		"reset": {
+			"account_activated": "Sua conta foi ativada!",
+			"activate": "Ativar",
+			"activate_title": "Para ativar sua conta por favor informe uma senha.",
+			"confirm_password": "Confirmar senha",
+			"confirm_password_match": "A senha e a confirmação da senha precisam ser iguais.",
+			"confirm_password_required": "Confirmação de senha é obrigatório.",
+			"confirmation_title": "Por favor verifique o seu email por uma mensagem que contem um link para reinicializar sua senha.",
+			"email": "E-mail",
+			"email_invalid": "E-mail inválido.",
+			"email_required": "E-mail é obrigatório.",
+			"initiate_title": "Informe seu e-mail para receber uma mensagem para reinicializar sua senha.",
+			"password_changed": "Sua senha foi alterada!",
+			"password_required": "Senha é obrigatória.",
+			"password_title": "Por favor informe a sua nova senha.",
+			"reset": "Reinicializar"
+		}
+	},
+	"loginNew": {
+		"common": {
+			"email_address": "Endereço de E-mail",
+			"err_unexpected": "Ocorreu um erro inesperado.",
+			"password": "Senha"
+		},
+		"login": {
+			"forgot_password": "Esqueci minha senha",
+			"login": "Entrar",
+			"upgrade_browser": "Por favor atualize o seu navegador para uma melhor experiência.",
+			"logout": "Sair"
+		},
+		"reset": {
+			"account_activated": "Sua conta foi ativada!",
+			"activate": "Ativar",
+			"activate_title": "Para ativar sua conta por favor informe uma senha.",
+			"confirm_password": "Confirmar senha",
+			"confirm_password_match": "A senha e a confirmação da senha precisam ser iguais.",
+			"confirm_password_required": "Confirmação de senha é obrigatório.",
+			"confirmation_title": "Por favor verifique o seu email por uma mensagem que contem um link para reinicializar sua senha.",
+			"email": "E-mail",
+			"email_invalid": "E-mail inválido.",
+			"email_required": "E-mail é obrigatório.",
+			"initiate_title": "Informe seu e-mail para receber uma mensagem para reinicializar sua senha.",
+			"password_changed": "Sua senha foi alterada!",
+			"password_required": "Senha é obrigatória.",
+			"password_title": "Por favor informe a sua nova senha.",
+			"reset": "Reinicializar"
+		}
+	},
+	"permission": {
+		"common": {
+			"menu": "Permissões"
+		},
+		"permissionCard": {
+			"description": "Descrição"
+		},
+		"permissionEdit": {
+			"add": "Adicionar Permissão",
+			"edit": "Editar Permissão",
+			"name": "Nome",
+			"description": "Descrição",
+			"confirm_save": "{{name}} foi salvo com sucesso.",
+			"err_while_saving": "Erro enquanto salvava permissão.",
+			"name_required": "O Nome é obrigatório",
+			"name_pattern": "O Nome precisa iniciar com 'ROLE_' e possuir letras maiúsculas, separadores(-) e sublinhados(_).",
+			"description_required": "A Descrição é obrigatória.",
+			"description_min": "A descrição precisa possuir no mínimo 3 caracteres.",
+			"description_max": "A descrição não pode ser maior do que 100 caracteres."
+		},
+		"permissionList": {
+			"title": "Permissões",
+			"filter": "Filtrar"
+		},
+		"permissionRestangularConfig": {
+			"delete": "Excluir permissão?",
+			"delete_confirm": "Confirma exclusão da permissão {{name}}?",
+			"ok": "Excluir",
+			"error": "Erro ao excluir permissão"
+		}
+	},
+	"role": {
+		"common": {
+			"menu": "Regras de acesso",
+			"permissions": "Permissões",
+			"organization_types": "Tipos de acesso",
+			"applications": "Aplicações"
+		},
+		"roleCard": {
+			"description": "Descrição",
+			"permission": "{TOTAL, plural,\n        one   {# permissão}\n        other {# permissões}}\n"
+		},
+		"roleEdit": {
+			"add": "Adicionar regra de acesso",
+			"edit": "Editar regra de acesso",
+			"information": "Informações sobre a regra",
+			"name": "Nome",
+			"name_required": "O nome da regra é obrigatório.",
+			"name_min": "O nome da regra precisa possuir no mínimo 3 caracteres.",
+			"name_max": "O nome da regra não pode ser maior do que 50 caracteres.",
+			"description": "Descrição",
+			"description_required": "A descrição é obrigatória.",
+			"description_min": "A descrição precisa possuir no mínimo 3 caracteres.",
+			"description_max": "A descrição não pode ser maior do que 50 caracteres.",
+			"err_while_saving": "Erro enquanto salvava regra de acesso.",
+			"confirm_save": "{{name}} foi salva com sucesso."
+		},
+		"roleList": {
+			"title": "Regras de acesso",
+			"filter": "Filtro"
+		}
+	},
+	"user": {
+		"common": {
+			"menu": "Usuários",
+			"status_active": "Ativo",
+			"status_inactive": "Inativo",
+			"email": "E-mail",
+			"email_required": "O campo e-mail e obrigatório.",
+			"email_invalid": "O e-mail informado é inválido. Por favor informe um e-mail válido.",
+			"password_differ": "A nova senha precisa ser diferente da senha atual.",
+			"new_password_required": "A nova senha é obrigatória.",
+			"conf_password": "Confirme a senha",
+			"password_not_eq": "Os campos nova senha e confirme a senha não sao iguais.",
+			"filter": "Filtro"
+		},
+		"userCard": {
+			"username": "Nome do usuário",
+			"contact": "Contato",
+			"organization": "Tipo de acesso",
+			"role": "Regra de acesso",
+			"go_to_org": "Ver tipo de acesso"
+		},
+		"userEdit": {
+			"title": "Detalhes do usuário",
+			"profile_lbl": "Perfil",
+			"security_lbl": "Dados de Acesso",
+			"subscriptions_lbl": "Assinaturas"
+		},
+		"userEditProfile": {
+			"title": "Adicionar usuário",
+			"account": "Dados da conta",
+			"email_unverified": "O e-mail informado não é um e-mail verificado e não receberá alertas de falhas.",
+			"first_name": "Nome",
+			"first_name_required": "Nome é obrigatório.",
+			"first_name_min": "Nome precisa possuir no mínimo 2 caracteres",
+			"first_name_max": "Nome não pode ser maior do que 15 caracteres",
+			"last_name": "Sobrenome",
+			"last_name_required": "Sobrenome é obrigatório.",
+			"phone": "Telefone",
+			"phone_required": "Telefone é obrigatório.",
+			"phone_min": "O telefone deve ser composto de 10 dígitos numéricos.",
+			"extension": "Extensão",
+			"password": "Senha",
+			"new_password": "Nova senha",
+			"organization": "Organização",
+			"org_type": "Tipo de acesso",
+			"org_type_required": "Tipo de acesso é obrigatório.",
+			"org_name": "Nome da organização",
+			"org_name_required": "Nome da organização é obrigatório.",
+			"usr_role": "Regra de acesso",
+			"usr_role_required": "Regra de acesso é obrigatória.",
+			"licenses": "Existem {{seatLimit}} - {{seatsUsed}} de {{seatLimit}} licensas restantes para {{app}}",
+			"email_notif": "Notificações de e-mail:",
+			"email_notif_rd_all": "Todas",
+			"email_notif_rd_warning": "Redução de potência / Aviso",
+			"email_notif_rd_act": "Redução de potência",
+			"email_notif_rd_none": "Nenhuma",
+			"email_ver": "Verificação de e-mail:",
+			"status_quote": "Situação:",
+			"email_verified": "Verificado",
+			"email_not_verified": "Não verificado",
+			"profile_updated_self": "Seu perfil de usuário foi atualizado.",
+			"profile_added": "Usuário {{name}} foi adicionado.",
+			"profile_updated": "usuário {{name}} foi atualizado.",
+			"err_while_saving": "Erro enquanto salvava perfil de usuário.",
+			"user_profile": "Perfil do Usuário",
+			"locale_title": "Idioma",
+			"locale_label": "Idioma preferido"
+		},
+		"userEditSecurity": {
+			"email_not_edited": "Endereço de e-mail não foi editado.",
+			"email_change": "Alterar e-mail",
+			"password_change": "Alterar senha",
+			"curr_password": "Senha atual",
+			"curr_password_req": "A senha atual é obrigatória.",
+			"new_password": "Nova senha",
+			"change_password": "Alterar senha",
+			"change_password_msg": "Conecte-se com esse usuário para alterar a área de segurança"
+		},
+		"userEditSubscriptions": {
+			"filter": "Filtro",
+			"customer": "Cliente",
+			"group": "Grupo",
+			"update_ok": "Assinatura alterada com sucesso.",
+			"update_err": "Ocorreu um erro ao alterar a assinatura do usuário."
+		},
+		"userList": {
+			"title": "Usuários"
+		},
+		"userRestAngularConfig": {
+			"confirm_save_email": "Salvar e-mail?",
+			"save_email_delete_customer": "Excluir cliente?",
+			"err_save_email": "Erro ao salvar e-mail!",
+			"email_updated": "Seu e-mail foi alterado.",
+			"email_upd_err": "Erro enquanto o e-mail era alterado.",
+			"password_updated": "Sua senha foi alterada.",
+			"password_upd_err": "Erro enquanto alterava a senha.",
+			"confirm_delete_lbl": "Excluir usuário?",
+			"err_deleting": "Erro ao excluir usuário!",
+			"save_email_content": "Um link será enviado para {{emailAddress}}.  Nenhuma notificação será recebida até que a alteração do email seja confirmada pelo link que consta no mesmo.\n"
+		}
+	}
+}

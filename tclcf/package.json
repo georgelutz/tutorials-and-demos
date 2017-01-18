@@ -1,0 +1,36 @@
+{
+  "name": "tcl-cf-portal",
+  "version": "0.0.1",
+  "dependencies": {
+    "babel-core": "6.10.4",
+    "babel-preset-es2015": "6.9.0",
+    "gulp": "3.9.1",
+    "lodash": "4.13.1",
+    "portal-core": "git+ssh://git@github.com/PeopleNet/portal-core.git#11.0.0",
+    "proxyquire": "1.7.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.0",
+    "webpack": "1.13.1",
+    "webpack-dev-server": "1.14.1",
+    "protractor": "4.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:TrimbleTCL/tcl-cf.git"
+  },
+  "scripts": {
+    "clean": "gulp clean",
+    "prebuild": "gulp verify",
+    "build": "gulp build",
+    "deploy": "gulp version-file && gulp version && gulp publish",
+    "ci-pullreq": "npm install && npm run prebuild",
+    "ci-build": "npm install && npm run clean && npm run build && npm run deploy",
+    "lint": "gulp lint",
+    "start": "gulp serve",
+    "harness": "nodemon src/harness/index.js",
+    "ui-test": "protractor src/integrationTest/conf.js"
+  },
+  "environments": {},
+  "license": "UNLICENSED"
+}

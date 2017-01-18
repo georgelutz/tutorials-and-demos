@@ -1,0 +1,638 @@
+{
+	"common": {
+		"title": "Template Portal",
+		"header": "Welcome",
+		"sample": "Sample translated text",
+		"nav_parent": "Parent Nav",
+		"nav_child": "Child Nav"
+	},
+	"application": {
+		"applicationEdit": {
+			"add": "Add Application",
+			"edit": "Edit Application",
+			"err_deleting": "Error deleting application",
+			"err_saving": "Error saving application",
+			"err_while_saving": "Error while saving application.",
+			"confirm_save": "{{name}} has been saved.",
+			"name": "Name",
+			"name_required": "Name required.",
+			"description": "Description",
+			"application_id": "Application ID",
+			"realms": "Realms"
+		},
+		"common": {
+			"applications": "Applications",
+			"menu": "Applications",
+			"name": "Name",
+			"description": "Description",
+			"id": "ID",
+			"realm": "Realm",
+			"add_application": "Add Application"
+		}
+	},
+	"core": {
+		"changelogs": {
+			"change_logs": "Change Logs",
+			"release_notes": "Release Notes"
+		},
+		"common": {
+			"title": "PeopleNet Portal",
+			"utc_timezone": "Coordinated Universal Time (UTC)",
+			"form": {
+				"back": "back",
+				"cancel": "cancel",
+				"delete": "delete",
+				"save": "save",
+				"search": "Search",
+				"return": "return",
+				"not_available": "Not Available",
+				"next": "Next"
+			},
+			"card": {
+				"cancel": "@:core.common.form.cancel",
+				"delete": "@:core.common.form.delete",
+				"edit": "edit",
+				"details": "view details",
+				"save": "@:core.common.form.save"
+			},
+			"entity-paging": {
+				"per_page": "{{pagingLabel}} per page",
+				"status_count": "{{startItemCount}}-{{lastItemCount}} of {{totalHits}}",
+				"first_page": "First Page",
+				"previous_page": "Previous Page",
+				"next_page": "Next Page",
+				"last_page": "Last Page"
+			},
+			"modal": {
+				"yes": "Yes",
+				"no": "No",
+				"close": "Close"
+			},
+			"list": {
+				"subtitle": "({{result}} total)"
+			},
+			"weekday": {
+				"sunday": "sunday",
+				"monday": "monday",
+				"tuesday": "tuesday",
+				"wednesday": "wednesday",
+				"thursday": "thursday",
+				"friday": "friday",
+				"saturday": "saturday"
+			},
+			"dialog-service": {
+				"delete_content": "Are you sure you want to delete {{name}}?",
+				"delete_title": "Delete {{name}}",
+				"delete_ok": "Delete",
+				"delete_cancel": "Cancel",
+				"alert_ok": "OK"
+			},
+			"filter": {
+				"results": "Filter Results"
+			},
+			"search": {
+				"results": "Search Results for",
+				"no_result": "No search results found"
+			},
+			"data": {
+				"regions": "regions-en-US.json"
+			},
+			"toast": {
+				"unexpected": "Unexpected error. Please try again.",
+				"state_change": "State change error."
+			},
+			"maintenance": {
+				"header": "We'll be right back!",
+				"text": "Server went boom. Sorry about that. Please try refreshing, and contact us if the problem persists."
+			},
+			"display": {
+				"density": "Display Density",
+				"low": "Low",
+				"high": "High"
+			},
+			"candybar": {
+				"partners": "Partners",
+				"themes": "Themes"
+			}
+		},
+		"dataTable": {
+			"actions": "Actions",
+			"selected": "selected"
+		},
+		"list": {
+			"item": "item",
+			"items": "items",
+			"selected": "selected"
+		},
+		"localeHelper": {
+			"en-US": "English",
+			"es-MX": "Spanish",
+			"fr-CA": "French",
+			"pt-BR": "Portuguese"
+		},
+		"units": {
+			"mi_short": "mi",
+			"mi_long": "Miles",
+			"mi/gal_short": "mi/gal",
+			"mi/gal_long": "Miles Per Gallon",
+			"mi/h_short": "mi/h",
+			"mi/h_long": "Miles Per Hour",
+			"mi/l_short": "mi/l",
+			"mi/l_long": "Miles Per Liter",
+			"km_short": "km",
+			"km_long": "Kilometers",
+			"km/gal_short": "km/gal",
+			"km/gal_long": "Kilometers Per Gallon",
+			"km/h_short": "km/h",
+			"km/h_long": "Kilometers Per Hour",
+			"km/l_short": "km/l",
+			"km/l_long": "Kilometers Per Liter",
+			"gal_short": "gal",
+			"gal_long": "Gallons",
+			"l_short": "l",
+			"l_long": "Liters",
+			"f_short": "ºF",
+			"f_long": "Degrees Fahrenheit",
+			"c_short": "ºC",
+			"c_long": "Degrees Celsius",
+			"psi_short": "psi",
+			"psi_long": "Pounds Per Square Inch",
+			"pa_short": "Pa",
+			"pa_long": "Pascals",
+			"kpa_short": "kPa",
+			"kpa_long": "Kilopascals",
+			"mpa_short": "MPa",
+			"mpa_long": "Megapascals",
+			"lb_short": "lb",
+			"lb_long": "Pounds",
+			"lb/s_short": "lb/s",
+			"lb/s_long": "Pounds Per Second",
+			"g_short": "g",
+			"g_long": "Grams",
+			"g/s_short": "g/s",
+			"g/s_long": "Grams Per Second",
+			"kg_short": "kg",
+			"kg_long": "Kilograms",
+			"kg/s_short": "kg/s",
+			"kg/s_long": "Kilograms Per Second"
+		}
+	},
+	"login": {
+		"common": {
+			"email_address": "E-mail Address",
+			"err_unexpected": "An unexpected error has occurred.",
+			"password": "Password"
+		},
+		"login": {
+			"forgot_password": "Forgot password",
+			"login": "Login",
+			"upgrade_browser": "Please upgrade your browser to the latest version for the best viewing experience.",
+			"logout": "Logout"
+		},
+		"reset": {
+			"account_activated": "Your account has been activated!",
+			"activate": "Activate",
+			"activate_title": "To activate your account, please create a password.",
+			"confirm_password": "Confirm password",
+			"confirm_password_match": "Password and confirm password must match.",
+			"confirm_password_required": "Confirm password required.",
+			"confirmation_title": "Please check your email for a message containing a link to reset your password.",
+			"email": "E-mail",
+			"email_invalid": "Invalid email.",
+			"email_required": "Email required.",
+			"initiate_title": "Enter your email to have a password reset link sent to you.",
+			"password_changed": "Your password has been changed!",
+			"password_required": "Password required.",
+			"password_title": "Please enter your new password.",
+			"reset": "Reset"
+		}
+	},
+	"loginNew": {
+		"common": {
+			"email_address": "E-mail Address",
+			"err_unexpected": "An unexpected error has occurred.",
+			"password": "Password"
+		},
+		"login": {
+			"forgot_password": "Forgot password",
+			"login": "Login",
+			"upgrade_browser": "Please upgrade your browser to the latest version for the best viewing experience.",
+			"logout": "Logout"
+		},
+		"reset": {
+			"account_activated": "Your account has been activated!",
+			"activate": "Activate",
+			"activate_title": "To activate your account, please create a password.",
+			"confirm_password": "Confirm password",
+			"confirm_password_match": "Password and confirm password must match.",
+			"confirm_password_required": "Confirm password required.",
+			"confirmation_title": "Please check your email for a message containing a link to reset your password.",
+			"email": "E-mail",
+			"email_invalid": "Invalid email.",
+			"email_required": "Email required.",
+			"initiate_title": "Enter your email to have a password reset link sent to you.",
+			"password_changed": "Your password has been changed!",
+			"password_required": "Password required.",
+			"password_title": "Please enter your new password.",
+			"reset": "Reset"
+		}
+	},
+	"organization": {
+		"organizationList": {
+			"title": "Organizations",
+			"cols": {
+				"name": "Name",
+				"actions": "Actions"
+			}
+		},
+		"organizationListDialog": {
+			"subheader": "Manage Organizations",
+			"instructions": "Select the organizations you wish to assign to "
+		}
+	},
+	"permission": {
+		"common": {
+			"description": "Description",
+			"permissions": "Permissions",
+			"menu": "Permissions",
+			"name": "Name"
+		},
+		"permissionEdit": {
+			"add": "Add Permission",
+			"edit": "Edit Permission",
+			"confirm_save": "{{name}} has been saved.",
+			"error": "Error deleting permission",
+			"err_while_saving": "Error while saving permission.",
+			"name_required": "Name is required",
+			"name_pattern": "Name must start with 'ROLE_' and consist of uppercase letters, dashes, and underscores.",
+			"description_required": "Description is required.",
+			"description_min": "Description must be at least 3 characters.",
+			"description_max": "Description cannot be longer than 100 characters."
+		}
+	},
+	"permissionNew": {
+		"permissionCard": {
+			"description": "Description"
+		},
+		"permissionDetails": {
+			"header": "Permission Details",
+			"name": "Name",
+			"description": "Description"
+		},
+		"permissionEdit": {
+			"header": {
+				"add": "Add Permission",
+				"edit": "Edit Permission"
+			},
+			"error": {
+				"on_create": "Error creating permission",
+				"on_update": "Error updating permission",
+				"on_delete": "Error deleting permission"
+			},
+			"success": {
+				"on_create": "Permission created",
+				"on_update": "Permission updated",
+				"on_delete": "Permission deleted"
+			},
+			"form": {
+				"name": "Name",
+				"name_required": "Name is required.",
+				"name_pattern": "Name must start with 'ROLE_' and consist of uppercase letters, dashes, and underscores.",
+				"description": "Description",
+				"description_required": "Description is required.",
+				"description_min": "Description must be at least 3 characters.",
+				"description_max": "Description cannot be longer than 100 characters."
+			}
+		},
+		"permissionList": {
+			"title": "Permissions",
+			"cols": {
+				"name": "Name",
+				"description": "Description",
+				"actions": "Actions"
+			}
+		},
+		"permissionListDialog": {
+			"subheader": "Manage Permissions",
+			"instructions": "Select the permissions you wish to assign to "
+		}
+	},
+	"role": {
+		"common": {
+			"menu": "Roles",
+			"permissions": "Permissions",
+			"organization_types": "Organization Types",
+			"applications": "Applications"
+		},
+		"roleCard": {
+			"description": "Description",
+			"permission": "{{result}} permission(s)"
+		},
+		"roleEdit": {
+			"add": "Add Role",
+			"edit": "Edit Role",
+			"information": "Role Information",
+			"name": "Role Name",
+			"name_required": "Name required.",
+			"name_min": "Name must be at least 3 characters.",
+			"name_max": "Name cannot be longer than 50 characters.",
+			"description": "Role Description",
+			"description_required": "Description required.",
+			"description_min": "Description must be at least 3 characters.",
+			"description_max": "Description cannot be longer than 100 characters.",
+			"err_while_saving": "Error while saving role.",
+			"confirm_save": "{{name}} has been saved."
+		},
+		"roleList": {
+			"title": "Roles",
+			"filter": "Filter",
+			"name": "Name",
+			"description": "Description",
+			"applications": "Applications",
+			"org_types": "Organization Types",
+			"permissions": "Permissions",
+			"add_role": "Add Role",
+			"permission_count_label": "{{result}} permission(s)",
+			"application_count_label": "{{result}} application(s)",
+			"organization_count_label": "{{result}} organization type(s)"
+		}
+	},
+	"roleNew": {
+		"roleCard": {
+			"description": "Description",
+			"permissions": "Permissions",
+			"organizations": "Organizations",
+			"applications": "Applications"
+		},
+		"roleDetails": {
+			"header": "Role Details"
+		},
+		"roleEdit": {
+			"header": {
+				"create": "Add Role",
+				"update": "Edit Role"
+			},
+			"error": {
+				"on_create": "Error creating role",
+				"on_update": "Error updating role",
+				"on_delete": "Error deleting role"
+			},
+			"success": {
+				"on_create": "Role created",
+				"on_update": "Role updated",
+				"on_delete": "Role deleted"
+			},
+			"form": {
+				"name": "Name",
+				"name_required": "Name is required.",
+				"name_min": "Name must be at least 3 characters.",
+				"name_max": "Name cannot be longer than 50 characters.",
+				"description": "Description",
+				"description_required": "Description is required.",
+				"description_min": "Description must be at least 3 characters.",
+				"description_max": "Description cannot be longer than 100 characters.",
+				"suites": "Suites",
+				"organizations": "Organizations",
+				"permissions": "Permissions"
+			}
+		},
+		"roleList": {
+			"title": "Roles",
+			"cols": {
+				"name": "Name",
+				"description": "Description",
+				"permissions": "Permissions",
+				"organizations": "Organizations",
+				"applications": "Applications",
+				"actions": "Actions"
+			}
+		},
+		"roleListDialog": {
+			"subheader": "Manage Roles",
+			"instructions": "Select the roles you wish to assign to "
+		}
+	},
+	"status": {
+		"statusView": {
+			"header": "Site Status",
+			"what_is_this_page": "What is this page?",
+			"what_is_this_page_desc": "Our goal is to provide a highly available product. We are constantly monitoring our services and if there are any potential impacts, a notice will be posted here.",
+			"what_is_this_data": "What is this data?",
+			"what_is_this_data_desc": "Our monitoring systems provide this data so that anyone can see the status of our systems. It is accurate to within a few minutes",
+			"day": "Day",
+			"week": "Week",
+			"month": "Month"
+		}
+	},
+	"suite": {
+		"suiteList": {
+			"title": "Suites",
+			"cols": {
+				"name": "Name",
+				"actions": "Actions"
+			}
+		},
+		"suiteListDialog": {
+			"subheader": "Manage Suites",
+			"instructions": "Select the suite you wish to assign to "
+		}
+	},
+	"user": {
+		"common": {
+			"menu": "Users",
+			"status_active": "Active",
+			"status_inactive": "Inactive",
+			"email": "Email",
+			"email_required": "Email is required.",
+			"email_invalid": "That is not a valid email. Please input a valid email.",
+			"password_differ": "New password must be different from current password.",
+			"new_password_required": "New password cannot be blank.",
+			"conf_password": "Confirm Password",
+			"password_not_eq": "Password and Confirm Password fields are not equal.",
+			"filter": "Filter",
+			"type": "{{result}} User(s) found"
+		},
+		"userCard": {
+			"username": "User Name",
+			"contact": "Contact",
+			"organization": "Organization",
+			"role": "Role",
+			"go_to_org": "Go to Organization"
+		},
+		"userEdit": {
+			"details_title": "User Details",
+			"edit_title": "Edit User Details",
+			"profile_lbl": "Profile",
+			"security_lbl": "Security",
+			"tags_lbl": "Tags",
+			"side_nav_pref": "Always collapse navigation bar"
+		},
+		"userEditProfile": {
+			"account": "Account",
+			"account_status": "Account Status",
+			"email_not_verified": "Email Not Verified",
+			"email_status": "Email Status",
+			"email_unverified": "This email is unverified and will not be sent fault code alerts.",
+			"email_ver": "Email Verification:",
+			"email_verified": "Email Verified",
+			"err_while_saving": "Error while saving profile.",
+			"extension": "Extension",
+			"first_name": "First Name",
+			"first_name_max": "Name cannot be longer than 15 characters",
+			"first_name_min": "Name must be at least 2 characters",
+			"first_name_required": "First name required.",
+			"last_name": "Last Name",
+			"last_name_required": "Last name is required.",
+			"licenses": "There are {{seatLimit}} - {{seatsUsed}} of {{seatLimit}} licenses remaining for {{app}}",
+			"locale_label": "Preferred language",
+			"locale_title": "Language",
+			"new_password": "New Password",
+			"org_name": "Organization Name",
+			"org_name_required": "Organization Name required.",
+			"org_type": "Organization Type",
+			"org_type_required": "Organization Type required.",
+			"organization": "Organization",
+			"password": "Password",
+			"phone": "Phone",
+			"phone_required": "Phone number required.",
+			"phone_min": "Phone number must consist of 10 numbers.",
+			"preferences": "Preferences",
+			"profile_added": "User {{name}} has been added.",
+			"profile_updated": "User {{name}} has been updated.",
+			"profile_updated_self": "Your profile has been updated.",
+			"status_quote": "Status:",
+			"title": "Add User",
+			"units_of_distance_label": "Preferred Units of Distance",
+			"units_of_mass_label": "Preferred Units of Mass",
+			"units_of_pressure_label": "Preferred Units of Pressure",
+			"units_of_temperature_label": "Preferred Units of Temperature",
+			"units_of_volume_label": "Preferred Units of Volume",
+			"user_profile": "User Profile",
+			"usr_role": "User Role",
+			"usr_role_required": "User Role is required."
+		},
+		"userEditSecurity": {
+			"email_not_edited": "Email address has not been edited.",
+			"email_change": "Change Email",
+			"password_change": "Change Password",
+			"curr_password": "Current Password",
+			"curr_password_req": "Current password is required.",
+			"new_password": "New Password",
+			"change_password": "Change Password",
+			"change_password_msg": "Log in as this user to change security"
+		},
+		"userEditTags": {
+			"add_tag": "Add Tag",
+			"tag_key": "Key",
+			"tag_value": "Value",
+			"updating_error": "Error updating user tags."
+		},
+		"userList": {
+			"title": "Users",
+			"paging_label": "Users",
+			"add_user": "Add User",
+			"first_name": "First Name",
+			"last_name": "Last Name",
+			"status": "Status"
+		},
+		"userRestAngularConfig": {
+			"confirm_save_email": "Save Email?",
+			"save_email_content": "A link will be sent to {{emailAddress}}. Notifications will not be received until this link is clicked to confirm the email change.",
+			"save_email_delete_customer": "Delete customer?",
+			"err_save_email": "Error saving email!",
+			"email_updated": "Your email has been updated.",
+			"email_upd_err": "Error while changing email.",
+			"password_updated": "Your password has been updated.",
+			"password_upd_err": "Error while changing password.",
+			"err_deleting": "Error deleting user!",
+			"user_delete": "User Deleted Successfully!"
+		}
+	},
+	"userNew": {
+		"common": {
+			"username": "User Name",
+			"contact": "Contact",
+			"organization": "Organization",
+			"role": "Role",
+			"go_to_org": "Go to Organization",
+			"email": "Email",
+			"extension": "Extension",
+			"first_name": "First Name",
+			"last_name": "Last Name",
+			"phone": "Phone",
+			"email_verified": "Email Verified",
+			"email_not_verified": "Email Not Verified",
+			"active": "Active",
+			"inactive": "Inactive",
+			"organizations": "Organizations",
+			"permissions": "Permissions",
+			"roles": "Roles",
+			"add_user": "Add User",
+			"details_title": "User Details",
+			"edit_title": "Edit User Details",
+			"profile_lbl": "Profile",
+			"security_lbl": "Security",
+			"tags_lbl": "Tags",
+			"users": "Users",
+			"status": "Status",
+			"user_list": "User List"
+		},
+		"manageOrganizationsDialog": {
+			"subheader": "Manage Organizations",
+			"instructions": "Select the organizations you wish to assign to ",
+			"list": {
+				"title": "Organizations",
+				"cols": {
+					"organization_name": "Organization Name",
+					"actions": "Actions"
+				}
+			}
+		},
+		"managePermissionsDialog": {
+			"subheader": "Manage Permissions",
+			"instructions": "Select the permissions you wish to assign to ",
+			"list": {
+				"title": "Permissions",
+				"cols": {
+					"permission_name": "Permission Name",
+					"actions": "Actions"
+				}
+			}
+		},
+		"manageRolesDialog": {
+			"subheader": "Manage Roles",
+			"instructions": "Select the roles you wish to assign to ",
+			"list": {
+				"title": "Roles",
+				"cols": {
+					"role_name": "Role Name",
+					"actions": "Actions"
+				}
+			}
+		},
+		"userProfile": {
+			"account": "Account",
+			"email_status": "Email Status",
+			"middle_initial": "Middle Initial",
+			"suffix": "Suffix",
+			"org_name": "Organization Name",
+			"preferences": "Preferences",
+			"locale_label": "Preferred language",
+			"units_of_distance_label": "Preferred Units of Distance",
+			"units_of_mass_label": "Preferred Units of Mass",
+			"units_of_pressure_label": "Preferred Units of Pressure",
+			"units_of_temperature_label": "Preferred Units of Temperature",
+			"units_of_volume_label": "Preferred Units of Volume",
+			"err_while_saving": "Error while saving profile.",
+			"profile_added": "User {{name}} has been added.",
+			"profile_updated": "User {{name}} has been updated.",
+			"profile_updated_self": "Your profile has been updated.",
+			"manage_roles": "Manage Roles",
+			"manage_orgs": "Manage Organizations",
+			"manage_permissions": "Manage Permissions",
+			"side_nav_pref": "Collapse Sidebar Navigation",
+			"active_status": "Active Status",
+			"user_roles": "User Roles"
+		}
+	}
+}

@@ -4,9 +4,9 @@ $(document).ready(function () {
     });
     $("#main-panel").fadeIn(1000);
 
-
+//comment test
         function toggleLabel() {
-            var input = $(this);
+            var input = $(this); 
             setTimeout(function () {
                 var def = input.attr('title');
                 if (!input.val() || (input.val() == def)) {

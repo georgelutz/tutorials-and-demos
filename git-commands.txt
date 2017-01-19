@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "text"
+git pull master origin
+git push master origin
+git clone <url>
